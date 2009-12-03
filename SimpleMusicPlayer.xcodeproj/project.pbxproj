@@ -10,9 +10,14 @@
 		1D3623260D0F684500981E51 /* SimpleMusicPlayerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SimpleMusicPlayerAppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F10DC70F10C7629800DD709A /* SimpleMusicPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10DC70E10C7629800DD709A /* SimpleMusicPlayerViewController.m */; };
+		F10DC71510C7635100DD709A /* SimpleMusicPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F10DC71410C7635100DD709A /* SimpleMusicPlayerView.m */; };
+		F10DC89110C7BDF400DD709A /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F10DC89010C7BDF400DD709A /* audiofile.mp3 */; };
+		F10DC94510C7C23F00DD709A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DC94410C7C23F00DD709A /* UIKit.framework */; };
+		F10DC98710C7C25F00DD709A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DC98610C7C25F00DD709A /* AVFoundation.framework */; };
+		F10DC98F10C7C2EF00DD709A /* Burning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F10DC98E10C7C2EF00DD709A /* Burning.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,19 @@
 		1D3623240D0F684500981E51 /* SimpleMusicPlayerAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMusicPlayerAppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* SimpleMusicPlayerAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMusicPlayerAppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* SimpleMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* SimpleMusicPlayer_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMusicPlayer_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* SimpleMusicPlayer-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SimpleMusicPlayer-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F10DC70D10C7629800DD709A /* SimpleMusicPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMusicPlayerViewController.h; sourceTree = "<group>"; };
+		F10DC70E10C7629800DD709A /* SimpleMusicPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMusicPlayerViewController.m; sourceTree = "<group>"; };
+		F10DC71310C7635100DD709A /* SimpleMusicPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleMusicPlayerView.h; sourceTree = "<group>"; };
+		F10DC71410C7635100DD709A /* SimpleMusicPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleMusicPlayerView.m; sourceTree = "<group>"; };
+		F10DC89010C7BDF400DD709A /* audiofile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiofile.mp3; sourceTree = "<group>"; };
+		F10DC94410C7C23F00DD709A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F10DC98610C7C25F00DD709A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		F10DC98E10C7C2EF00DD709A /* Burning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Burning.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,8 +46,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
-				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
+				F10DC94510C7C23F00DD709A /* UIKit.framework in Frameworks */,
+				F10DC98710C7C25F00DD709A /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,6 +60,10 @@
 			children = (
 				1D3623240D0F684500981E51 /* SimpleMusicPlayerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* SimpleMusicPlayerAppDelegate.m */,
+				F10DC70D10C7629800DD709A /* SimpleMusicPlayerViewController.h */,
+				F10DC70E10C7629800DD709A /* SimpleMusicPlayerViewController.m */,
+				F10DC71310C7635100DD709A /* SimpleMusicPlayerView.h */,
+				F10DC71410C7635100DD709A /* SimpleMusicPlayerView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -83,6 +100,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				F10DC98E10C7C2EF00DD709A /* Burning.mp3 */,
+				F10DC89010C7BDF400DD709A /* audiofile.mp3 */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SimpleMusicPlayer-Info.plist */,
 			);
@@ -92,9 +111,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				F10DC94410C7C23F00DD709A /* UIKit.framework */,
+				F10DC98610C7C25F00DD709A /* AVFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -142,6 +162,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				F10DC89110C7BDF400DD709A /* audiofile.mp3 in Resources */,
+				F10DC98F10C7C2EF00DD709A /* Burning.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -154,6 +176,8 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* SimpleMusicPlayerAppDelegate.m in Sources */,
+				F10DC70F10C7629800DD709A /* SimpleMusicPlayerViewController.m in Sources */,
+				F10DC71510C7635100DD709A /* SimpleMusicPlayerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -165,6 +189,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -179,6 +207,10 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = SimpleMusicPlayer_Prefix.pch;
 				INFOPLIST_FILE = "SimpleMusicPlayer-Info.plist";

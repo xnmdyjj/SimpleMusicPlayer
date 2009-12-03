@@ -8,11 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class SimpleMusicPlayerViewController;
+
 @interface SimpleMusicPlayerAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
+	SimpleMusicPlayerViewController *playViewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+@property (nonatomic,retain) SimpleMusicPlayerViewController *playViewController;
 
 @end
 

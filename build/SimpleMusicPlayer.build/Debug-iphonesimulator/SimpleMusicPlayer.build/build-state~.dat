@@ -1,0 +1,256 @@
+TSimpleMusicPlayer
+v7
+r0
+t281519195.466678
+cCheck dependencies
+cProcessInfoPlistFile /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/Info.plist SimpleMusicPlayer-Info.plist
+cCompileXIB /Users/cybercom/SimpleMusicPlayer/MainWindow.xib
+cProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch.gch SimpleMusicPlayer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/main.o /Users/cybercom/SimpleMusicPlayer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerAppDelegate.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerViewController.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerView.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
+c000000004B14B5C700000000000000EE
+t1259648455
+s238
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004ABDC853000000000026EE30
+t1253951571
+s2551344
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004ABDC952000000000027E880
+t1253951826
+s2615424
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004ABDC93F0000000000001355
+t1253951807
+s4949
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004ABDEE1D0000000000000788
+t1253961245
+s1928
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004ABDEEE200000000016721E0
+t1253961442
+s23536096
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.h
+c000000004B176A7C0000000000000212
+t1259825788
+s530
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m
+c000000004B176B4F000000000000034B
+t1259825999
+s843
+i"SimpleMusicPlayerAppDelegate.h"
+i"SimpleMusicPlayerViewController.h"
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.h
+c000000004B176CC200000000000001CD
+t1259826370
+s461
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m
+c000000004B176C5200000000000001DE
+t1259826258
+s478
+i"SimpleMusicPlayerView.h"
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.h
+c000000004B176A350000000000000187
+t1259825717
+s391
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m
+c000000004B176C3E00000000000006EC
+t1259826238
+s1772
+i"SimpleMusicPlayerViewController.h"
+
+N/Users/cybercom/SimpleMusicPlayer/MainWindow.xib
+c000000004B162E950000000000001F85
+t1259744917
+s8069
+
+N/Users/cybercom/SimpleMusicPlayer/SimpleMusicPlayer_Prefix.pch
+c000000004B162E9500000000000000CB
+t1259744917
+s203
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app
+t2
+s0
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app.dSYM
+t2
+s0
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/Info.plist
+t1259826393
+s610
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/MainWindow.nib
+t1259826394
+s1355
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/PkgInfo
+t1259826393
+s8
+
+N/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/SimpleMusicPlayer
+t2
+s0
+
+N/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayer.LinkFileList
+c000000004B176CD90000000000000268
+t1259826393
+s616
+
+N/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerAppDelegate.o
+t1259826395
+s38824
+
+N/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerView.o
+t1259826395
+s12976
+
+N/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerViewController.o
+t2
+s0
+
+N/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/main.o
+t1259826395
+s5948
+
+N/Users/cybercom/SimpleMusicPlayer/main.m
+c000000004B162E95000000000000016F
+t1259744917
+s367
+i<UIKit/UIKit.h>
+
+N/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch.gch
+t1259826395
+s13034960
+
+NSimpleMusicPlayer-Info.plist
+c000000004B162E95000000000000038D
+t1259744917
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies281519193#281519193#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerAppDelegate.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281519195.313591
+e281519195.393329
+r1
+xCompileC
+xbuild/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerAppDelegate.o
+x/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m281519195#281519195#0(0"0(0#0#72"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m4300885448#2060"    cd /Users/cybercom/SimpleMusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-generated-files.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-own-target-headers.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-all-target-headers.hmap -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-project-headers.hmap -F/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator -I/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/include -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources/i386 -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch -c /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerAppDelegate.m -o /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerAppDelegate.o0#
+
+CCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerView.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281519195.393423
+e281519195.466632
+r1
+xCompileC
+xbuild/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerView.o
+x/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'playButton' requires method '-playButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'playButton' requires the method 'setPlayButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'pauseButton' requires method '-pauseButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'pauseButton' requires the method 'setPauseButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'stopButton' requires method '-stopButton' to be defined - use @synthesize, @dynamic or provide a method implementation
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'stopButton' requires the method 'setStopButton:' to be defined - use @synthesize, @dynamic or provide a method implementation
+lSLF07#2@73"Compile /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519195#281519195#0(1273"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'playButton' requires method '-playButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'playButton' requires the method 'setPlayButton:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'pauseButton' requires method '-pauseButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'pauseButton' requires the method 'setPauseButton:' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'stopButton' requires method '-stopButton' to be defined - use @synthesize, @dynamic or provide a method implementation/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m:34: warning: property 'stopButton' requires the method 'setStopButton:' to be defined - use @synthesize, @dynamic or provide a method implementation6(22@128"Property 'playButton' requires method '-playButton' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#0#208#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(22@135"Property 'playButton' requires the method 'setPlayButton:' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#208#215#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(22@130"Property 'pauseButton' requires method '-pauseButton' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#423#210#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(22@137"Property 'pauseButton' requires the method 'setPauseButton:' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#633#217#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(22@128"Property 'stopButton' requires method '-stopButton' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#850#208#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(22@135"Property 'stopButton' requires the method 'setStopButton:' to be defined - use @synthesize, @dynamic or provide a method implementation281519195#1058#215#0(6@65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m281519058#34#0#34#0#0"0(0#0#65"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m4300885448#2046"    cd /Users/cybercom/SimpleMusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-generated-files.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-own-target-headers.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-all-target-headers.hmap -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-project-headers.hmap -F/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator -I/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/include -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources/i386 -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch -c /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerView.m -o /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerView.o0#
+
+CCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerViewController.o /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281519195.362224
+e281519195.466283
+r0
+xCompileC
+xbuild/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerViewController.o
+x/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m:10:9: error: #import expects "FILENAME" or <FILENAME>
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m: In function '-[SimpleMusicPlayerViewController loadView]':
+o/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m:31: warning: receiver 'SimpleMusicPlayerView' is a forward class and corresponding @interface may not exist
+lSLF07#2@83"Compile /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m281519195#281519195#0(450"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m:10:9: error: #import expects "FILENAME" or <FILENAME>/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m: In function '-[SimpleMusicPlayerViewController loadView]':/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m:31: warning: receiver 'SimpleMusicPlayerView' is a forward class and corresponding @interface may not exist2(4@40"#import expects "FILENAME" or <FILENAME>281519195#0#130#0(6@75"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m281519038#10#0#10#0#0"0(22@94"Receiver 'SimpleMusicPlayerView' is a forward class and corresponding @interface may not exist281519195#266#184#0(6@75"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m281519038#31#0#31#0#0"0(0#0#75"/Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m4300885448#2066"    cd /Users/cybercom/SimpleMusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-generated-files.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-own-target-headers.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-all-target-headers.hmap -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-project-headers.hmap -F/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator -I/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/include -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources/i386 -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch -c /Users/cybercom/SimpleMusicPlayer/Classes/SimpleMusicPlayerViewController.m -o /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/SimpleMusicPlayerViewController.o1#
+
+CCompileC build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/main.o /Users/cybercom/SimpleMusicPlayer/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s281519195.312732
+e281519195.362124
+r1
+xCompileC
+xbuild/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/main.o
+x/Users/cybercom/SimpleMusicPlayer/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/cybercom/SimpleMusicPlayer/main.m281519195#281519195#0(0"0(0#0#40"/Users/cybercom/SimpleMusicPlayer/main.m4300885448#2004"    cd /Users/cybercom/SimpleMusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-generated-files.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-own-target-headers.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-all-target-headers.hmap -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-project-headers.hmap -F/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator -I/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/include -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources/i386 -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources -include /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch -c /Users/cybercom/SimpleMusicPlayer/main.m -o /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/cybercom/SimpleMusicPlayer/MainWindow.xib
+s281519193.443731
+e281519194.461697
+r1
+xCompileXIB
+x/Users/cybercom/SimpleMusicPlayer/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib281519193#281519194#0(0"0(0#0#48"/Users/cybercom/SimpleMusicPlayer/MainWindow.xib4300885448#477"    cd /Users/cybercom/SimpleMusicPlayer    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/MainWindow.nib /Users/cybercom/SimpleMusicPlayer/MainWindow.xib0#
+
+CGenerateDSYMFile /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app.dSYM /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/SimpleMusicPlayer
+r0
+
+CLd /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/SimpleMusicPlayer normal i386
+r0
+
+CProcessInfoPlistFile /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/Info.plist SimpleMusicPlayer-Info.plist
+s281519193.422719
+e281519193.443585
+r1
+xProcessInfoPlistFile
+x/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/Info.plist
+xSimpleMusicPlayer-Info.plist
+lSLF07#2@36"Process SimpleMusicPlayer-Info.plist281519193#281519193#0(0"0(0#0#62"/Users/cybercom/SimpleMusicPlayer/SimpleMusicPlayer-Info.plist4300885448#494"    cd /Users/cybercom/SimpleMusicPlayer    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility SimpleMusicPlayer-Info.plist -genpkginfo /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app/Info.plist0#
+
+CProcessPCH /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch.gch SimpleMusicPlayer_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s281519194.461812
+e281519195.312571
+r1
+xProcessPCH
+x/var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch.gch
+xSimpleMusicPlayer_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@39"Precompile SimpleMusicPlayer_Prefix.pch281519194#281519195#0(0"0(0#0#62"/Users/cybercom/SimpleMusicPlayer/SimpleMusicPlayer_Prefix.pch4300885448#1891"    cd /Users/cybercom/SimpleMusicPlayer    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-generated-files.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-own-target-headers.hmap -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-all-target-headers.hmap -iquote /Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/SimpleMusicPlayer-project-headers.hmap -F/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator -I/Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/include -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources/i386 -I/Users/cybercom/SimpleMusicPlayer/build/SimpleMusicPlayer.build/Debug-iphonesimulator/SimpleMusicPlayer.build/DerivedSources -c /Users/cybercom/SimpleMusicPlayer/SimpleMusicPlayer_Prefix.pch -o /var/folders/TC/TC1nlygbG5KOQp1wEUv69E+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/SimpleMusicPlayer_Prefix-ejciwzjnlservhdruizrbvuktaql/SimpleMusicPlayer_Prefix.pch.gch0#
+
+CTouch /Users/cybercom/SimpleMusicPlayer/build/Debug-iphonesimulator/SimpleMusicPlayer.app
+r0
+
