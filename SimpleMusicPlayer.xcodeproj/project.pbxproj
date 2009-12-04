@@ -17,7 +17,12 @@
 		F10DC89110C7BDF400DD709A /* audiofile.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F10DC89010C7BDF400DD709A /* audiofile.mp3 */; };
 		F10DC94510C7C23F00DD709A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DC94410C7C23F00DD709A /* UIKit.framework */; };
 		F10DC98710C7C25F00DD709A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10DC98610C7C25F00DD709A /* AVFoundation.framework */; };
-		F10DC98F10C7C2EF00DD709A /* Burning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F10DC98E10C7C2EF00DD709A /* Burning.mp3 */; };
+		F116238A10C8EA0100CB83E9 /* sample.aac in Resources */ = {isa = PBXBuildFile; fileRef = F116238910C8EA0100CB83E9 /* sample.aac */; };
+		F11623E110C8EA8E00CB83E9 /* sample.ogg in Resources */ = {isa = PBXBuildFile; fileRef = F11623E010C8EA8E00CB83E9 /* sample.ogg */; };
+		F11623E610C8EB7A00CB83E9 /* sample.3gp in Resources */ = {isa = PBXBuildFile; fileRef = F11623E510C8EB7A00CB83E9 /* sample.3gp */; };
+		F116246310C8F9D500CB83E9 /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F116246210C8F9D500CB83E9 /* sample.m4a */; };
+		F11624BC10C908B500CB83E9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F11624BB10C908B500CB83E9 /* play.png */; };
+		F11624BE10C908C000CB83E9 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F11624BD10C908C000CB83E9 /* pause.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,7 +42,12 @@
 		F10DC89010C7BDF400DD709A /* audiofile.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = audiofile.mp3; sourceTree = "<group>"; };
 		F10DC94410C7C23F00DD709A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F10DC98610C7C25F00DD709A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		F10DC98E10C7C2EF00DD709A /* Burning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Burning.mp3; sourceTree = "<group>"; };
+		F116238910C8EA0100CB83E9 /* sample.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.aac; sourceTree = "<group>"; };
+		F11623E010C8EA8E00CB83E9 /* sample.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.ogg; sourceTree = "<group>"; };
+		F11623E510C8EB7A00CB83E9 /* sample.3gp */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.3gp; sourceTree = "<group>"; };
+		F116246210C8F9D500CB83E9 /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
+		F11624BB10C908B500CB83E9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		F11624BD10C908C000CB83E9 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../Downloads/avTouch/images/pause.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +110,8 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F10DC98E10C7C2EF00DD709A /* Burning.mp3 */,
-				F10DC89010C7BDF400DD709A /* audiofile.mp3 */,
+				F11624BA10C9087D00CB83E9 /* audio */,
+				F11624B910C9086900CB83E9 /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* SimpleMusicPlayer-Info.plist */,
 			);
@@ -117,6 +127,27 @@
 				F10DC98610C7C25F00DD709A /* AVFoundation.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F11624B910C9086900CB83E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F11624BD10C908C000CB83E9 /* pause.png */,
+				F11624BB10C908B500CB83E9 /* play.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F11624BA10C9087D00CB83E9 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				F11623E010C8EA8E00CB83E9 /* sample.ogg */,
+				F11623E510C8EB7A00CB83E9 /* sample.3gp */,
+				F116246210C8F9D500CB83E9 /* sample.m4a */,
+				F116238910C8EA0100CB83E9 /* sample.aac */,
+				F10DC89010C7BDF400DD709A /* audiofile.mp3 */,
+			);
+			name = audio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +194,12 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				F10DC89110C7BDF400DD709A /* audiofile.mp3 in Resources */,
-				F10DC98F10C7C2EF00DD709A /* Burning.mp3 in Resources */,
+				F116238A10C8EA0100CB83E9 /* sample.aac in Resources */,
+				F11623E110C8EA8E00CB83E9 /* sample.ogg in Resources */,
+				F11623E610C8EB7A00CB83E9 /* sample.3gp in Resources */,
+				F116246310C8F9D500CB83E9 /* sample.m4a in Resources */,
+				F11624BC10C908B500CB83E9 /* play.png in Resources */,
+				F11624BE10C908C000CB83E9 /* pause.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
