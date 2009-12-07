@@ -9,11 +9,15 @@
 #import "SimpleMusicPlayerViewController.h"
 #import "SimpleMusicPlayerView.h"
 
+#define SKIP_TIME 2.0
+// amount to play between skips
+#define SKIP_INTERVAL 0.2
 
 @interface SimpleMusicPlayerViewController(PrivateMethods)
 -(void)updateViewForPlayerInfo;
 -(void)updateViewForPlayerState;
 -(void)updateCurrentTime;
+-(void)ffwd;
 @end
 
 
@@ -22,12 +26,16 @@
 @synthesize playButton;
 @synthesize pauseButton;
 @synthesize stopButton;
+@synthesize ffwButton;
+@synthesize rewButton;
 @synthesize audioPlayer;
 @synthesize volumeSlider;
 @synthesize progressBar;
 @synthesize currentTime;
 @synthesize fileDuration;
 @synthesize updateTimer;
+@synthesize ffwTimer;
+@synthesize rewTimer;
 
 /*
  // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
@@ -78,6 +86,18 @@
 	[aSlider release];
 	[volumeSlider addTarget:self action:@selector(volumeSliderMoved:) forControlEvents:UIControlEventValueChanged];
 	[self.view addSubview:volumeSlider];
+	UIImage *volumeDownImage = [UIImage imageNamed:@"volume_down.png"];
+	UIImageView *volumeDownView = [[UIImageView alloc] initWithFrame:CGRectMake(10.0, 305.0, volumeDownImage.size.width, volumeDownImage.size.height)];
+	volumeDownView.image = volumeDownImage;
+	[self.view addSubview:volumeDownView];
+	[volumeDownView release];
+	
+	UIImage *volumeUpImage = [UIImage imageNamed:@"volume_up.png"];
+	UIImageView *volumeUpView = [[UIImageView alloc] initWithFrame:CGRectMake(280, 305.0, volumeUpImage.size.width, volumeUpImage.size.height)];
+	volumeUpView.image = volumeUpImage;
+	[self.view addSubview:volumeUpView];
+	[volumeUpView release];
+	
 	
 	//create time slider;
 	UISlider *anotherSlider = [[UISlider alloc] initWithFrame:CGRectMake(40.0, 200.0, 220.0, 20.0)];
@@ -91,6 +111,7 @@
 	UILabel *aLabel = [[UILabel alloc] initWithFrame:CGRectMake(10.0, 200.0, 20.0, 20.0)];
 	self.currentTime = aLabel;
 	[aLabel release];
+	currentTime.backgroundColor = [UIColor grayColor];
 	self.currentTime.adjustsFontSizeToFitWidth = YES;
 	[self.view addSubview:currentTime];
 	
@@ -98,11 +119,32 @@
 	UILabel *anotherLabel = [[UILabel alloc] initWithFrame:CGRectMake(270.0, 200.0, 20.0, 20.0)];
 	self.fileDuration = anotherLabel;
 	[anotherLabel release];
+	fileDuration.backgroundColor = [UIColor grayColor];
 	self.fileDuration.adjustsFontSizeToFitWidth = YES;
 	[self.view addSubview:fileDuration];
 	
+	//create forward button
+	self.ffwButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	ffwButton.frame = CGRectMake(50.0, 50.0, 80.0, 60.0);
+	ffwButton.backgroundColor = [UIColor clearColor];
+	[ffwButton setTitle:@"Forward" forState:UIControlStateNormal];
+	[ffwButton addTarget:self action:@selector(ffwButtonPressed:) forControlEvents:UIControlEventTouchDown];
+	[ffwButton addTarget:self action:@selector(ffwButtonReleased:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:ffwButton];	
+	
+	//create rewind button
+	self.rewButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	rewButton.frame = CGRectMake(150.0, 50.0, 80.0, 60.0);
+	rewButton.backgroundColor = [UIColor clearColor];
+	[rewButton setTitle:@"Rewind" forState:UIControlStateNormal];
+	[rewButton addTarget:self action:@selector(rewButtonPressed:) forControlEvents:UIControlEventTouchDown];
+	[rewButton addTarget:self action:@selector(rewButtonReleased:) forControlEvents:UIControlEventTouchUpInside];
+	[self.view addSubview:rewButton];
+	
 	//init timer;
 	self.updateTimer = nil;
+	self.ffwTimer = nil;
+	self.rewTimer = nil;
 }
 
 
@@ -121,11 +163,9 @@
 	if (self.audioPlayer) {
 		[self updateViewForPlayerInfo];
 		[self updateViewForPlayerState];
+		[self.audioPlayer setDelegate:self];
 	}
 	[fileURL release];
-	
-	//[self.audioPlayer prepareToPlay];
-	//[self.audioPlayer setDelegate:self];
 }
 
 /*
@@ -166,12 +206,13 @@
 	}
 	
 	if (self.audioPlayer.playing) {
-		self.updateTimer = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(updateCurrentTime) userInfo:self.audioPlayer repeats:YES];
+		self.updateTimer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateCurrentTime) userInfo:self.audioPlayer repeats:YES];
 	}
 }
 
 
 -(void)updateCurrentTime {
+	//NSLog(@"self.audioPlayer.currentTime = %f", self.audioPlayer.currentTime);
 	self.currentTime.text = [NSString stringWithFormat:@"%d:%02d", (int)self.audioPlayer.currentTime / 60, (int)self.audioPlayer.currentTime % 60, nil];
 	self.progressBar.value = self.audioPlayer.currentTime;
 }
@@ -205,19 +246,81 @@
 	
 }
 
+-(void) ffwd {
+	NSLog(@"ffwd");
+	AVAudioPlayer *player = ffwTimer.userInfo;
+	player.currentTime += SKIP_TIME;
+	//NSLog(@"player.currentTime = %f", player.currentTime);
+	[self updateCurrentTime];
+}
+
+-(void) rewind {
+	NSLog(@"rewind");
+	AVAudioPlayer *player = rewTimer.userInfo;
+	player.currentTime -= SKIP_TIME;
+	NSLog(@"player.currentTime = %f", player.currentTime);
+	[self updateCurrentTime];
+}
+
+-(void)ffwButtonPressed:(id)sender {
+	NSLog(@"forward button pressed");
+	if (ffwTimer) {
+		[ffwTimer invalidate];
+	}
+	ffwTimer = [NSTimer scheduledTimerWithTimeInterval:SKIP_INTERVAL target:self selector:@selector(ffwd) userInfo:self.audioPlayer repeats:YES];
+}
+
+-(void)ffwButtonReleased:(id)sender {
+	NSLog(@"forward button released");
+	if (ffwTimer) {
+		[ffwTimer invalidate];
+	}
+	ffwTimer = nil;
+}
+
+-(void)rewButtonPressed:(id)sender {
+	NSLog(@"rewind button pressed");
+	if (rewTimer) {
+		[rewTimer invalidate];
+	}
+	rewTimer = [NSTimer scheduledTimerWithTimeInterval:SKIP_INTERVAL target:self selector:@selector(rewind) userInfo:self.audioPlayer repeats:YES];
+}
+
+-(void)rewButtonReleased:(id)sender {
+	NSLog(@"rewind button released");
+	if (rewTimer) {
+		[rewTimer invalidate];
+	}
+	rewTimer = nil;
+}
+
+
+//implement AVAudioPlayer delegate methods
 - (void) audioPlayerDidFinishPlaying: (AVAudioPlayer *) player
                         successfully: (BOOL) completed {
     if (completed == YES) {
 		NSLog(@"did finish palying");
+		[player setCurrentTime:0.0];
+		[self updateViewForPlayerState];
     }
 }
+
+
 
 - (void)dealloc {
 	[audioPlayer release];
 	[playButton release];
 	[pauseButton release];
 	[stopButton release];
+	[ffwButton release];
+	[rewButton release];
+	[currentTime release];
+	[fileDuration release];
 	[volumeSlider release];
+	[progressBar release];
+	[updateTimer release];
+	[ffwTimer release];
+	[rewTimer release];
     [super dealloc];
 }
 

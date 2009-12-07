@@ -16,7 +16,7 @@
 - (id)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         // Initialization code
-		self.backgroundColor = [UIColor whiteColor];
+		self.backgroundColor = [UIColor grayColor];
     }
     return self;
 }

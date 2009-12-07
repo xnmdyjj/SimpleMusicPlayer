@@ -23,6 +23,8 @@
 		F116246310C8F9D500CB83E9 /* sample.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F116246210C8F9D500CB83E9 /* sample.m4a */; };
 		F11624BC10C908B500CB83E9 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = F11624BB10C908B500CB83E9 /* play.png */; };
 		F11624BE10C908C000CB83E9 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = F11624BD10C908C000CB83E9 /* pause.png */; };
+		F1A049CE10CCC5E9001FF467 /* volume_down.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A049CD10CCC5E9001FF467 /* volume_down.png */; };
+		F1A049D010CCC5EE001FF467 /* volume_up.png in Resources */ = {isa = PBXBuildFile; fileRef = F1A049CF10CCC5EE001FF467 /* volume_up.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		F116246210C8F9D500CB83E9 /* sample.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = sample.m4a; sourceTree = "<group>"; };
 		F11624BB10C908B500CB83E9 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		F11624BD10C908C000CB83E9 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = ../Downloads/avTouch/images/pause.png; sourceTree = SOURCE_ROOT; };
+		F1A049CD10CCC5E9001FF467 /* volume_down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volume_down.png; sourceTree = "<group>"; };
+		F1A049CF10CCC5EE001FF467 /* volume_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = volume_up.png; path = ../Downloads/avTouch/images/volume_up.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +136,8 @@
 		F11624B910C9086900CB83E9 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F1A049CD10CCC5E9001FF467 /* volume_down.png */,
+				F1A049CF10CCC5EE001FF467 /* volume_up.png */,
 				F11624BD10C908C000CB83E9 /* pause.png */,
 				F11624BB10C908B500CB83E9 /* play.png */,
 			);
@@ -200,6 +206,8 @@
 				F116246310C8F9D500CB83E9 /* sample.m4a in Resources */,
 				F11624BC10C908B500CB83E9 /* play.png in Resources */,
 				F11624BE10C908C000CB83E9 /* pause.png in Resources */,
+				F1A049CE10CCC5E9001FF467 /* volume_down.png in Resources */,
+				F1A049D010CCC5EE001FF467 /* volume_up.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
